@@ -9,7 +9,7 @@ class CalcTest(TestCase):
         self.assertEqual(calc_sting('2+2'), 4)
 
     def test_minus(self):
-        self.assertEqual(calc_sting('2-2'), 0)
+        self.assertEqual(calc_sting('2-2'), 1)
 
     def test_multiple(self):
         self.assertEqual(calc_sting('2*4'), 8)
